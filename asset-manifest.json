@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/youyube-app/static/css/main.16800037.chunk.css",
+    "main.js": "/youyube-app/static/js/main.8118b8b3.chunk.js",
+    "main.js.map": "/youyube-app/static/js/main.8118b8b3.chunk.js.map",
+    "runtime-main.js": "/youyube-app/static/js/runtime-main.d0176bae.js",
+    "runtime-main.js.map": "/youyube-app/static/js/runtime-main.d0176bae.js.map",
+    "static/js/2.976b51e7.chunk.js": "/youyube-app/static/js/2.976b51e7.chunk.js",
+    "static/js/2.976b51e7.chunk.js.map": "/youyube-app/static/js/2.976b51e7.chunk.js.map",
+    "index.html": "/youyube-app/index.html",
+    "precache-manifest.99a026875df78c6cbf23b67990b3d2c2.js": "/youyube-app/precache-manifest.99a026875df78c6cbf23b67990b3d2c2.js",
+    "service-worker.js": "/youyube-app/service-worker.js",
+    "static/css/main.16800037.chunk.css.map": "/youyube-app/static/css/main.16800037.chunk.css.map",
+    "static/js/2.976b51e7.chunk.js.LICENSE.txt": "/youyube-app/static/js/2.976b51e7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0176bae.js",
+    "static/js/2.976b51e7.chunk.js",
+    "static/css/main.16800037.chunk.css",
+    "static/js/main.8118b8b3.chunk.js"
+  ]
+}
