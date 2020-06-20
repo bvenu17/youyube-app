@@ -177,7 +177,11 @@
   border:#eee solid 2px;
   margin-left: -20px;
 }
-
+.formButton:focus{
+  box-shadow: none;
+  outline: none;
+  border:#666 1px solid;
+}
 .frm{
   width: 60vw;
   margin-left: auto;
