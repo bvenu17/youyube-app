@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+// import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
 import Home from './components/Home';
 import Navbar from './components/Navigation';
 
@@ -11,9 +11,10 @@ function App() {
       <header className="">
         <Navbar />
       </header>
-      <Switch>
+      <Home />
+      {/* <Switch>
         <Route path="/" exact component={Home} />
-      </Switch>
+      </Switch> */}
     </div>
     </Router>
   );
