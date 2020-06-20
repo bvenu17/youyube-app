@@ -5,7 +5,7 @@ import "../App.css";
 import { Button, Modal } from "react-bootstrap";
 //npm package imports
 import axios from "axios";
-
+const loadingGif = require('../assets/loading.gif');
 function Home() {
   //state for video listings
   const [mostRecent, setMostRecent] = useState(undefined);
@@ -188,7 +188,7 @@ function Home() {
         <img
           className="loadingGIF"
           width="5%"
-          src="/imgs/loading.gif"
+          src={loadingGif}
           alt="img"
         />
       </div>
