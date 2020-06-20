@@ -30,7 +30,9 @@ function Home() {
     async function getData() {
       try {
         console.log("enter use effect");
-        const { data } = await axios.get("http://localhost:5000/api/channel");
+        // const { data } = await axios.get("http://localhost:5000/api/channel");
+        const { data } = await axios.get("https://youtube-app-server-app.herokuapp.com/api/channel");
+
         console.log("data is", data);
         setMostRecent(data);
         setLoading(false);
@@ -60,7 +62,8 @@ function Home() {
       console.log("enter search function");
       const { data } = await axios({
         method: "POST",
-        url: "http://localhost:5000/api/channel/search",
+        // url: "http://localhost:5000/api/channel/search",
+        url: "https://youtube-app-server-app.herokuapp.com/api/channel/search",
         data: {
           keyword: search.value,
         },
@@ -85,7 +88,9 @@ function Home() {
       console.log("enter use effect");
       const { data } = await axios({
         method: "POST",
-        url: "http://localhost:5000/api/channel/search",
+        // url: "http://localhost:5000/api/channel/search",
+        url: "https://youtube-app-server-app.herokuapp.com/api/channel/search",
+
         data: {
           keyword: searchVal,
           pageToken: searchedVideos.nextPageToken,
@@ -108,7 +113,9 @@ function Home() {
       console.log("enter use effect");
       const { data } = await axios({
         method: "POST",
-        url: "http://localhost:5000/api/channel/page",
+        // url: "http://localhost:5000/api/channel/page",
+        url: "https://youtube-app-server-app.herokuapp.com/api/channel/page",
+
         data: {
           //   keyword: searchVal,
           pageToken: mostRecent.nextPageToken,
@@ -131,7 +138,9 @@ function Home() {
       console.log("enter use effect");
       const { data } = await axios({
         method: "POST",
-        url: "http://localhost:5000/api/channel/search",
+        // url: "http://localhost:5000/api/channel/search",
+        url: "https://youtube-app-server-app.herokuapp.com/api/channel/search",
+
         data: {
           keyword: searchVal,
           pageToken: searchedVideos.prevPageToken,
@@ -154,7 +163,9 @@ function Home() {
       console.log("enter use effect");
       const { data } = await axios({
         method: "POST",
-        url: "http://localhost:5000/api/channel/page",
+        // url: "http://localhost:5000/api/channel/page",
+        url: "https://youtube-app-server-app.herokuapp.com/api/channel/page",
+
         data: {
           //   keyword: searchVal,
           pageToken: mostRecent.prevPageToken,
