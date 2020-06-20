@@ -18,7 +18,7 @@ function Navigation() {
       
     >
       <div className="container">
-      <Navbar.Brand className="myLogo" href="/"><i class="fab fa-youtube"></i> YouTube</Navbar.Brand>
+      <Navbar.Brand className="myLogo" href="/"><i className="fab fa-youtube"></i> YouTube</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
