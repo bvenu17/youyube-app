@@ -6,7 +6,7 @@ import Navbar from './components/Navigation';
 
 function App() {
   return (
-    <Router>
+    // <Router>
     <div className="">
       <header className="">
         <Navbar />
@@ -16,7 +16,7 @@ function App() {
         <Route path="/" exact component={Home} />
       </Switch> */}
     </div>
-    </Router>
+    // </Router>
   );
 }
 
