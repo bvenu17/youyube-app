@@ -53,6 +53,10 @@
   font-weight: 900;
   font-size: 1.4rem;
 }
+.myLogo:focus{
+  box-shadow: none;
+  outline: none;
+}
 /* video listings---------------------------------------------------------------------------------------------- */
 .videoCard{
   /* border:red 2px solid; */
